@@ -21,6 +21,6 @@ jobs:
 
     - name: Build and push Docker image
   run: |
-    docker build --progress=plain -t mvskathik101/docker_check/general:latest .
-    docker push mvskathik101/docker_check/general:latest
+    docker build --progress=plain -t mvskathik101/docker_check:latest .
+    docker push mvskathik101/docker_check:latest
 
